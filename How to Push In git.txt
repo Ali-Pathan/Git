@@ -1,0 +1,30 @@
+
+*********************************** To push in repository ***********************************
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Ali-Pathan/ToPushOnGit.git
+git push -u origin main
+
+
+
+
+
+*********************************** To commit in existing repository ***********************************
+
+
+Rajive@DESKTOP-63FL533 MINGW64 /d/Selenium/Eclipse Workplace/GitPush (master)
+
+git init
+git add .
+git commit -m "Updated class"
+git remote add origin master https://github.com/Ali-Pathan/GitPush.git
+git pull --rebase origin master
+git push -u origin master
+git status
+git reflog
+
+
+Important note: main/master depends on the folder type as per line 18
